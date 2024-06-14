@@ -117,16 +117,16 @@ function Header() {
   return (
     <header className="flex flex-row items-center">
       <Image
-        src={thirdwebIcon}
+        src={https://popcatrock.xyz/assets/popcatr.png}
         alt=""
-        className="size-[150px] md:size-[150px]"
+        className="size-[100px] md:size-[100px]"
         style={{
           filter: "drop-shadow(0px 0px 24px #a726a9a8)",
         }}
       />
 
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-        NFT Claim App
+        MintCat
       </h1>
     </header>
   );
