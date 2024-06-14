@@ -115,9 +115,9 @@ export default function Home() {
 
 function Header() {
   return (
-    < className="flex flex-row items-center">
+    <header className="flex flex-row items-center">
       <Image
-        src={https://popcatrock.xyz/assets/popcatr.png}
+        href={https://popcatrock.xyz/assets/popcatr.png}
         alt=""
         className="size-[100px] md:size-[100px]"
         style={{
