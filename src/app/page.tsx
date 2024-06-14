@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ConnectButton, MediaRenderer, TransactionButton, useActiveAccount, useReadContract } from "thirdweb/react";
-import thirdwebIcon from "@public/thirdweb.svg";
+import popcatrIcon from "@public/popcatr.svg";
 import { client } from "./client";
 import { defineChain, getContract, toEther } from "thirdweb";
 import { getContractMetadata } from "thirdweb/extensions/common";
@@ -117,7 +117,7 @@ function Header() {
   return (
     <header className="flex flex-row items-center">
       <Image
-        src={#}
+        src={popcatr}
         alt=""
         className="size-[150px] md:size-[150px]"
         style={{
