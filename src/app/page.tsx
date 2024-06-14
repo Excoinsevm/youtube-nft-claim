@@ -105,7 +105,7 @@ export default function Home() {
               setQuantity(1);
             }}
           >
-            {`Claim NFT (${getPrice(quantity)} ETH)`}
+            {`Claim NFT (${getPrice(quantity)} BROCK)`}
           </TransactionButton>
         </div>
       </div>
