@@ -117,7 +117,7 @@ function Header() {
   return (
     <header className="flex flex-row items-center">
       <Image
-        href={https://popcatrock.xyz/assets/popcatr.png}
+        src=https://popcatrock.xyz/assets/popcatr.png
         alt=""
         className="size-[100px] md:size-[100px]"
         style={{
